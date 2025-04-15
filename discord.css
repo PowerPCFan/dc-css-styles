@@ -262,7 +262,8 @@
 
 /* Non-nitro profile background color */
 .outer_c0bea0 {
-  background-color: black;
+  /* background-color: black; */
+    background-color: var(--app-background-frame);
 }
 
 /* Controls background color of the DM box on a person's profile */
