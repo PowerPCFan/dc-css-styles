@@ -249,3 +249,28 @@
 /* ---------- */
 /* ---------- */
 
+/* extra spacing below most recent message (more like old UI) */
+.channelBottomBarArea_f75fb0 {
+  margin-top: 8px;
+}
+
+/* Members list spacing/padding */
+.memberInner__5d473 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* Non-nitro profile background color */
+.outer_c0bea0 {
+  background-color: black;
+}
+
+/* Controls background color of the DM box on a person's profile */
+.container_a99829 {
+  background-color: #222 !important;
+}
+
+/* Controls text color of DM box */
+.container_a99829 * { 
+  color: #d6d6d6 !important;
+}
