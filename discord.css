@@ -1,11 +1,8 @@
-/* @import url("https://milbits.github.io/oldcord/src/components/vars.css");
-@import url("https://milbits.github.io/oldcord/src/components/color.css");
-@import url("https://milbits.github.io/oldcord/src/components/imgs.css");
-@import url("https://milbits.github.io/oldcord/src/components/other.css");
-@import url("https://milbits.github.io/oldcord/src/components/redesign.css");
-body {  
-  font-family: GG Sans, sans-serif !important;  
-} */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* following CSS tweaks from @blueschnabeltier. in hatsune vencord discord server */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
 
 :root {
     --guildbar-avatar-size: 48px;
@@ -244,3 +241,11 @@ body {
 .unreadMentionsIndicatorBottom_ef3116 {
     transform: translateY(-10px);
 }
+
+
+/* ---------- */
+/* ---------- */
+/* MY TWEAKS: */
+/* ---------- */
+/* ---------- */
+
