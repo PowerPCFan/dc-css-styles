@@ -263,18 +263,18 @@
 /* Non-nitro profile background color */
 .outer_c0bea0 {
   /* background-color: black; */
-    background-color: var(--app-background-frame);
+    background-color: var(--app-background-frame) !important;
 }
 
 /* Controls background color of the DM box on a person's profile */
-.container_a99829 {
+/* .container_a99829 {
   background-color: #222 !important;
-}
+} */
 
 /* Controls text color of DM box */
-.container_a99829 * { 
+/* .container_a99829 * { 
   color: #d6d6d6 !important;
-}
+} */
 
 /* old user area (this is from hatsune vencord server) */
 .visual-refresh section[aria-label="User area"] {
