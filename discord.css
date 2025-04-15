@@ -274,3 +274,22 @@
 .container_a99829 * { 
   color: #d6d6d6 !important;
 }
+
+/* old user area (this is from hatsune vencord server) */
+.visual-refresh section[aria-label="User area"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);;
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav:has([data-list-id="guildsnav"]) {
+  margin-bottom: unset;
+}
+
+/* right click menu border */
+[class*=menu_][class*=flexible_] {
+    /* border: 1px solid #696779; */
+    border: 1px solid var(--input-border)
+}
