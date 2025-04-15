@@ -251,19 +251,19 @@
 
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
-  margin-top: 8px;
+  margin-top: 0.5rem !important;
 }
 
 /* Members list spacing/padding */
 .memberInner__5d473 {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
 }
 
 /* some list thing padding */
 .listRow__9d78f {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
 }
 
 /* Non-nitro profile background color */
