@@ -39,3 +39,8 @@
     /* border: 1px solid #696779; */
     border: 1px solid var(--input-border)
 }
+
+/* make server title thing at the top left aligned */
+.title_c38106 { 
+  margin-left: 14px; justify-content: left;            
+}
