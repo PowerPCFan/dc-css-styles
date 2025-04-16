@@ -42,5 +42,6 @@
 
 /* make server title thing at the top left aligned */
 .title_c38106 { 
-  margin-left: 14px; justify-content: left;            
+  margin-left: 14px; 
+  justify-content: left;            
 }
