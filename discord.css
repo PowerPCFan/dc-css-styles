@@ -1,10 +1,3 @@
-/* What The Visual Refresh Should Look Like */
-/* @import url("https://raw.githubusercontent.com/BlueSchnabeltier/wtvrsll/main/wtvrsll.source.css"); */
-
-/* --------- */
-/* MY TWEAKS */
-/* --------- */
-
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
   margin-top: 0.5rem !important;
@@ -28,7 +21,7 @@
     background-color: var(--app-background-frame) !important;
 }
 
-/* old user area (this is from hatsune vencord server) */
+/* old user area */
 .visual-refresh section[aria-label="User area"] {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);;
     left: var(--custom-guild-list-width);
