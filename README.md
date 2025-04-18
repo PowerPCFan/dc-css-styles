@@ -1,3 +1,1 @@
-# discord.css
-
-my discord styles to sync across clients
+my css styles to sync across discord clients
