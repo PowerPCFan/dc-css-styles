@@ -1,11 +1,5 @@
-/* revert the fucking awful new server bar */
 @import url("https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css");
-
-
-
-
-
-
+/* ^^ revert the awful new server bar */
 
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
