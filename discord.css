@@ -50,6 +50,6 @@
 }
 
 /* make server list background darker (looks best on ash theme) */
-.guilds_c48ade {
-    background-color: hsl(228, 6.329%, 15.49%) !important;
-}
+/* .guilds_c48ade { */
+    /* background-color: hsl(228, 6.329%, 15.49%) !important; */
+/* } */
