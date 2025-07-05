@@ -25,7 +25,8 @@
 }
 
 /* old user area */
-.visual-refresh section[aria-label="User area"] {
+/* commented out because it seems to have stopped working */
+/* .visual-refresh section[aria-label="User area"] {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);;
     left: var(--custom-guild-list-width);
     bottom: 0px;
@@ -34,6 +35,19 @@
 }
 
 .visual-refresh nav:has([data-list-id="guildsnav"]) {
+  margin-bottom: unset;
+} */
+
+/* new user area revert */
+.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav[class*=guilds_] {
   margin-bottom: unset;
 }
 
@@ -48,8 +62,3 @@
   margin-left: 14px; 
   justify-content: left;            
 }
-
-/* make server list background darker (looks best on ash theme) */
-/* .guilds_c48ade { */
-    /* background-color: hsl(228, 6.329%, 15.49%) !important; */
-/* } */
