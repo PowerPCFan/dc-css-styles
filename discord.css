@@ -8,7 +8,7 @@
 }
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
-  margin-top: 0.5rem !important;
+  margin-top: -0.5rem !important;
 }
 
 /* Members list spacing/padding */
@@ -28,20 +28,6 @@
   /* background-color: black; */
     background-color: var(--app-background-frame) !important;
 }
-
-/* old user area */
-/* commented out because it seems to have stopped working */
-/* .visual-refresh section[aria-label="User area"] {
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);;
-    left: var(--custom-guild-list-width);
-    bottom: 0px;
-    border-radius: 0px;
-    border: none;
-}
-
-.visual-refresh nav:has([data-list-id="guildsnav"]) {
-  margin-bottom: unset;
-} */
 
 /* new user area revert */
 .visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
