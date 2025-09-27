@@ -1,11 +1,13 @@
 @import url("https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css");  /* Server bar revert */
 @import url("https://nspc911.github.io/themes/vencord/BlurryBackdrop.theme.css");  /* blurry backdrop */
+
 :root {
   /* The blur radius, can be any types of length */
   --blrbg-blur-by: 2px;
   /* how dim you want the bg aside from the blur */
   --blrbg-dimmness: 25;
 }
+
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
   margin-top: 0.5rem !important;
@@ -52,4 +54,63 @@
 .title_c38106 { 
   margin-left: 14px; 
   justify-content: left;            
+}
+
+
+/* TYPING INDICATOR REVERT */
+.channelTextArea_f75fb0 {
+    margin-bottom: 25px;
+}
+.align-chat-input {
+    --custom-channel-textarea-text-area-height: 52px;
+}
+.align-chat-input .attachWrapper__0923f {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.align-chat-input .inTextChannel_b88801.base_b88801 {
+    bottom: 0px;
+    top: auto;
+}
+.align-chat-input .inTextChannel_b88801 .typingDots_b88801 {
+    margin-left: 5px;
+}
+.align-chat-input .inTextChannel_b88801 .text_b88801 {
+    margin-left: 0cqw
+}
+.scrollerSpacer__36d07 {
+    height: 28px !important;
+}
+.align-chat-input .inTextChannel_b88801 .text_b88801>strong {
+    color: var(--text-secondary);
+}
+.attachButton__0923f path {
+    d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z");
+}
+.chatTypingGradientAtBottom__36d07 {
+    display: none;
+}
+.chatTypingGradientNotAtBottom__36d07 {
+    display: none;
+}
+.inTextChannel_b88801.base_b88801 {
+  position: absolute !important;
+  bottom: -5px !important;
+  top: auto;
+  left: 8px;
+  right: 8px;
+  z-index: 9999 !important;
+
+  margin: 0;
+  padding: 6px 8px;
+
+  pointer-events: auto;
+  transform: none;
+  transition: none;
+}
+.wrapper__44df5 {
+  margin-bottom: 10px;
+}
+.inTextChannel_b88801 .text_b88801 {
+  margin-left: 10px;
 }
