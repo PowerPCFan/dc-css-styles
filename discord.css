@@ -27,7 +27,6 @@
 
 /* Non-nitro profile background color */
 .outer_c0bea0 {
-  /* background-color: black; */
     background-color: var(--app-background-frame) !important;
 }
 
@@ -39,7 +38,15 @@
     border-radius: 0px;
     border: none;
 }
-
+div[class^="nameTag__"] div[class^="panelTitleContainer__"] {
+    margin-bottom: 0;
+}
+div[class^="nameTag__"] div[class^="panelTitleContainer__"] div {
+    font-size: 0.9rem !important;
+}
+div[class^="nameTag__"] div[class^="panelSubtextContainer__"] div {
+    font-size: 0.75rem !important;
+}
 .visual-refresh nav[class*=guilds_] {
   margin-bottom: unset;
 }
@@ -114,3 +121,4 @@
 .inTextChannel_b88801 .text_b88801 {
   margin-left: 10px;
 }
+
