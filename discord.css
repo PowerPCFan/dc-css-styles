@@ -1,16 +1,11 @@
 @import url("https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css");  /* Server bar revert */
 @import url("https://nspc911.github.io/themes/vencord/BlurryBackdrop.theme.css");  /* blurry backdrop */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');  /* inter font */
 
 :root {
   /* The blur radius, can be any types of length */
   --blrbg-blur-by: 2px;
   /* how dim you want the bg aside from the blur */
   --blrbg-dimmness: 25;
-
-  /* THIS MAY BE CONTROVERSIAL */
-  --font-primary: 'Inter';
-  font-size-adjust: 0.5;
 }
 
 /* extra spacing below most recent message (more like old UI) */
