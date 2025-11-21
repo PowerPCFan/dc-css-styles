@@ -8,6 +8,19 @@
   --blrbg-dimmness: 25;
 }
 
+/* goes with server bar revert - change appearance settings border radius */
+div[class^="appIconSelection__"],
+div[class^="selectionCircle__"],
+div[class^="themeSelection__"],
+div[class^="themeSelection__"] div[class^="borderOverlay__"] {
+    border-radius: 50% !important;
+}
+div[class^="checkmarkCircle__"] {
+    position: absolute !important;
+    inset-inline-end: -2.5px !important;
+    top: -2.5px !important;
+}
+
 /* extra spacing below most recent message (more like old UI) */
 .channelBottomBarArea_f75fb0 {
   margin-top: 0.5rem !important;
